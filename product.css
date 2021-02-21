@@ -1,0 +1,44 @@
+body {
+    background-color: white;
+    color: black;
+ 
+ }
+ 
+ 
+ 
+ 
+ .brand-logo {
+    width: 85px;
+    height: auto;
+ 
+ }
+ 
+ .container {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    padding: 8px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+ }
+ 
+ .list {
+    float: inline-start;
+ }
+ 
+ 
+         @media (max-width: 500px) {
+        .container {
+            flex-direction: column;
+            flex-wrap: wrap;
+            overflow: auto;
+        }
+        body {
+            background-color: black;
+            color: white;
+        }
+     }
+ 
